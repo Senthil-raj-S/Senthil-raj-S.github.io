@@ -1,0 +1,16 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#image{
+        
+    width: 10%;
+    height: 10%;
+ }
+@media screen and (max-width:600px) {
+    #image{
+       
+       width: 100%;
+       height: fit-content;
+     
+    }
+}

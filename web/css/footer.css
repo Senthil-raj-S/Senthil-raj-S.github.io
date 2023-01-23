@@ -1,0 +1,25 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#footer{
+    background-color: rgb(216, 150, 183) !important;
+    margin-top: 2rem!important;
+    border-radius: 25px;
+    padding: 0px;
+    
+}
+#box1{
+    width: 100px;
+    height: 800px;
+}
+.img{
+    width: 150px;
+    height:300px;
+}
+
+#button:hover{
+    background-color: green !important;
+}
+#button:active{
+    background-color: red !important;
+}

@@ -1,0 +1,39 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#outbox{
+    background-color: rgb(250, 28, 28);
+    height: 500px;
+    margin-top: 3rem;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 1rem;
+    color: white;
+}
+@media screen and (max-width:600px) {
+    #outbox{
+    background-color: rgb(250, 28, 28);
+    height: 550px;
+    margin:1rem;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 1rem;
+    color: white;
+    }
+}
+form{
+    margin-top: 3rem;
+    padding: 50px;
+}
+input{
+    padding: 5px;
+    border-radius: 1rem;
+    background-color: rgb(241, 56, 158);
+}
+
+input:hover{
+    background-color: green !important;
+}
+input:active{
+    background-color: red !important;
+}
